@@ -22,8 +22,8 @@ from scipy import stats
 import alpaca_trade_api as tradeapi
 
 # ========== CONFIGURATION ==========
-API_KEY = "PKU2FJVPFX6CAC4CO34SF2I3IZ"
-API_SECRET = "3TSSw74jh17JATCNLvzdSjeUWzzM8TwfyB9ssVgoeuDS"
+API_KEY = "your-key-here"
+API_SECRET = "your-secret-here"
 BASE_URL = "https://paper-api.alpaca.markets"
 DATA_FEED = "iex"
 
