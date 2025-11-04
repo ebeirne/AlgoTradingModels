@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Logs and data
+logs/*.csv
+logs/*.txt
+*.log
+*.db
+*.sqlite
+
+# API Keys (CRITICAL - Never upload these!)
+config_secrets.py
+.env
+*.key
+*.pem
+api_keys.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Keep logs folder structure but not files
+!logs/.gitkeep
